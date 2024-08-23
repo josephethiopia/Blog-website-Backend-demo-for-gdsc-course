@@ -18,7 +18,7 @@ const MONGO_URI =
 
 // Function to start the server
 const startServer = () => {
-  app.listen(5000, () => {
+  app.listen(7610, () => {
     console.log("The server is ready to serve on port 5000");
   });
 };
